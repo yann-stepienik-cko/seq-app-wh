@@ -1,0 +1,14 @@
+C:\Users\Checkout.com\Source\seq-app-wh\Seq.App.WH\obj\Debug\Seq.App.WH.csprojResolveAssemblyReference.cache
+C:\Users\Checkout.com\Source\seq-app-wh\Seq.App.WH\bin\Debug\Seq.App.WH.dll.config
+C:\Users\Checkout.com\Source\seq-app-wh\Seq.App.WH\bin\Debug\Seq.App.WH.dll
+C:\Users\Checkout.com\Source\seq-app-wh\Seq.App.WH\bin\Debug\Seq.App.WH.pdb
+C:\Users\Checkout.com\Source\seq-app-wh\Seq.App.WH\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Checkout.com\Source\seq-app-wh\Seq.App.WH\bin\Debug\Seq.Apps.dll
+C:\Users\Checkout.com\Source\seq-app-wh\Seq.App.WH\bin\Debug\Serilog.dll
+C:\Users\Checkout.com\Source\seq-app-wh\Seq.App.WH\bin\Debug\Sprache.dll
+C:\Users\Checkout.com\Source\seq-app-wh\Seq.App.WH\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Checkout.com\Source\seq-app-wh\Seq.App.WH\bin\Debug\Seq.Apps.pdb
+C:\Users\Checkout.com\Source\seq-app-wh\Seq.App.WH\bin\Debug\Seq.Apps.xml
+C:\Users\Checkout.com\Source\seq-app-wh\Seq.App.WH\bin\Debug\Serilog.xml
+C:\Users\Checkout.com\Source\seq-app-wh\Seq.App.WH\obj\Debug\Seq.App.WH.dll
+C:\Users\Checkout.com\Source\seq-app-wh\Seq.App.WH\obj\Debug\Seq.App.WH.pdb
