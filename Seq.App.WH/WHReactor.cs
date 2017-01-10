@@ -18,6 +18,16 @@ namespace Seq.App.WH
             HelpText = "Url to send event.")]
         public string URL { get; set; }
 
+        [SeqAppSetting(
+            DisplayName = "Authorization Header",
+            HelpText = "Authorization Header")]
+        public string authHeader { get; set; }
+
+        [SeqAppSetting(
+            DisplayName = "Authorization Header's value",
+            HelpText = "Authorization Header's value")]
+        public string authHeaderValue { get; set; }
+
         public void On(Event<LogEventData> evt)
         {
             using (var client = new HttpClient())
@@ -44,6 +54,7 @@ namespace Seq.App.WH
                 var request = new HttpRequestMessage(HttpMethod.Post, URL);
                 request.Content = new StringContent(json);
                 request.Content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+                request.Content.Headers.Add(authHeader, authHeaderValue);
 
                 var response = client.SendAsync(request).Result;
 
