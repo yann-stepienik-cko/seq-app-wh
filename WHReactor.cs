@@ -1,6 +1,5 @@
 ﻿using System.IO;
 using System.Net;
-using System.Net.Http;
 using System.Linq;
 using System.Text;
 using Seq.Apps;
@@ -26,8 +25,8 @@ namespace Seq.App.WH
               var values = new Dictionary<string, string>
               {
                  { "Timestamp", evt.Data.LocalTimestamp },
-                 { "Id", evt.Data.Id }
-                 { "Level", evt.Data.Level }
+                 { "Id", evt.Data.Id },
+                 { "Level", evt.Data.Level },
                  { "RenderedMessage", evt.Data.RenderedMessage }
               };
 
