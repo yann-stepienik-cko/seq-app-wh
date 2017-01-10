@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using System.Net;
+using System.Net.Http;
 using System.Linq;
 using System.Text;
 using Seq.Apps;
